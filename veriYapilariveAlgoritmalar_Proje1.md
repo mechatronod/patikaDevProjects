@@ -1,8 +1,8 @@
-# Kodluyoruz Ilk Repo
+# Insertion Sort Projesi
 
-Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
+## 1 Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
-![github](figures/github.png)
+diziler buraya eklenecek
 
 ## Installation
 
