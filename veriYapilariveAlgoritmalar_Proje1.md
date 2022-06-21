@@ -14,28 +14,30 @@ Sıralama aşamalarında dizinin değerleri:
 [2, 6, 16, 18, 22, 27] #6 değeri 27, 27, 18 ve 16 değerlerinden küçük olduğu için sırasıyla sola kayarak 1.index'te yer bulacaktır.
 ```
 
-## 2.Big-O gösterimini yazınız.
+## 2.Big-O gösterimini yazınız. 
+not(Tr) : Big-O gösteriminde n harfi girdi sayısını (dizi eleman sayısı vb.) ve N harfi ise işlem sayısını ifade etmektedir.
 
+not(En) : (O is the order of growth and n is the length of the input.)
 
+```
+Big-O notation : Quadratic time – O(n²)
+```
 ## 3.Time Complexity: 
-Average case: Aradığımız sayının ortada olması
-Worst case: Aradığımız sayının sonda olması 
-Best case: Aradığımız sayının dizinin en başında olması.
+Average case: Aranan sayının ortada olması
+Worst case  : Aranan sayının sonda olması 
+Best case   : Aranan sayının dizinin en başında olması.
 
 ## 4.Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
-sadasdasdad
+[2, 6, 16, 18, 22, 27] #Sıralama sonrası 18 değeri dizinin ortasındaki eleman olduğu için "Average Case" kapsamında olacaktır.
 
-# [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
-sdadasdadasdadsa
+## [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
-## Installation
-
-Öncelikle projeyi clonelayın. (Buraya sizin reponuzdan aldığınız link gelecek)
-
-```bash
-git clone https://github.com/cengizcmataraci/kodluyoruzilkrepo.git
 ```
-
+[3, 7, 5, 8, 2, 9, 4, 15, 6]  # 2.sırada yer alan 3 değeri 7 ile karşılaştırılarak 1.sıraya kaydırılır.
+[3, 5, 7, 8, 2, 9, 4, 15, 6]  # 3.sırada yer alan 5 değeri 7 ile karşılaştırılarak 2.sıraya kaydırılır.
+[3, 5, 7, 8, 2, 9, 4, 15, 6]  # 4.sırada yer alan 8 değeri 7 ile karşılaştırılır, konumu değişmez ve 4.sırada kalır.
+[2, 3, 5, 7, 8, 9, 4, 15, 6]  # 5.sırada yer alan 2 değeri sırasıyla 8, 7 , 5 ve 3 değerleriyle karşılaştırılır ve 1.sıraya taşınır.
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
