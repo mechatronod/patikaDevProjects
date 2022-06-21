@@ -2,8 +2,9 @@
 
 dizi = [22,27,16,2,18,6]
 ## 1.Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+### Arama indexi (dizi zero-based olarak ele alındığında başlangıç elemanı 0 olacağından) 1'den başlayarak solunda kalan dizi elemanları ile küçük mü sorgulaması yapılır ve küçükse bulunulan indexteki değer solundaki değerler ile yer değiştirir.
 
-[22, 27, 16, 2, 18, 6] # arama indexi (dizi zero-based olarak ele alındığında) 1'den başlayarak solunda kalan dizi elemanları ile küçük mü sorgulaması yapılır ve küçükse bulunulan indexteki değer solundaki ile yer değiştirir.
+[22, 27, 16, 2, 18, 6] 
 
 [22, 27, 16, 2, 18, 6]
 
