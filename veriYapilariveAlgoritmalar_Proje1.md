@@ -38,6 +38,6 @@ Best case   : Aranan sayının dizinin en başında olması.
 [3, 5, 7, 8, 2, 9, 4, 15, 6]  # 4.sırada yer alan 8 değeri 7 ile karşılaştırılır, konumu değişmez ve 4.sırada kalır.
 [2, 3, 5, 7, 8, 9, 4, 15, 6]  # 5.sırada yer alan 2 değeri sırasıyla 8, 7 , 5 ve 3 değerleriyle karşılaştırılır ve 1.sıraya taşınır.
 ```
-
+ 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
